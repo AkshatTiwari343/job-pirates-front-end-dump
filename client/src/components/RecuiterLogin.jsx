@@ -35,7 +35,7 @@ const RecuiterLogin = () => {
                 {/* Cross icon - mobile friendly */}
                 <img 
                     src={assets.cross_icon} 
-                    className='absolute top-4 sm:top-5 right-4 sm:right-9 w-4 h-4 z-50 cursor-pointer' 
+                    className='absolute top-4 sm:top-5 right-4 sm:right-9 w-4 h-4 sm:scale-50 z-50 cursor-pointer' 
                     onClick={() => setShowRecruiterLogin(false)} 
                     alt="close" 
                 />

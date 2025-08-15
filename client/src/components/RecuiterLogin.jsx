@@ -30,12 +30,12 @@ const RecuiterLogin = () => {
 
     return (
         <div className='bg-black-100 absolute top-0 left-0 right-0 bottom-0 z-10 backdrop-blur-sm bg-black/30 flex items-center justify-center overflow-visible px-4 sm:px-0'>
-            <form onSubmit={onSubmitHandler} className='relative bg-white p-6 sm:p-10 rounded-lg flex flex-col gap-4 sm:gap-6 text-slate-500 w-full max-w-md'>
+            <form onSubmit={onSubmitHandler} className='relative bg-white p-6 sm:p-10 rounded-lg flex flex-col gap-4 sm:gap-6 text-slate-500 w-full max-w-md mx-auto'>
                 
                 {/* Cross icon - mobile friendly */}
                 <img 
                     src={assets.cross_icon} 
-                    className='absolute top-4 sm:top-5 right-4 sm:right-5 w-8 h-8 z-50 cursor-pointer' 
+                    className='absolute top-4 sm:top-5 right-4 sm:right-9 w-4 h-4 z-50 cursor-pointer' 
                     onClick={() => setShowRecruiterLogin(false)} 
                     alt="close" 
                 />

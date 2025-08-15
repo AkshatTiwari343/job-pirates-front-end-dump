@@ -31,7 +31,7 @@ const RecuiterLogin = () => {
     },[] )
 
     return (
-    <div className='bg-black-100 absolute top-0 left-0 right-0 bottom-0 z-10 backdrop-blur-sm bg-black/30 flex items-center justify-center '>
+    <div className='bg-black-100 absolute top-0 left-0 right-0 bottom-0 z-10 backdrop-blur-sm bg-black/30 flex items-center justify-center overflow-visible'>
         <form onSubmit={onSubmitHandler} className='relative bg-white p-10 rounded-lg flex flex-col gap-6 text-slate-500'>
             <h1 className='flex items-center justify-center text-2xl text-neutral-700'>Recruiter {state}</h1>
             <p className='flex text-sm items-center text-wrap justify-center'>Welcome Back! Please Sign In to Continue</p>
@@ -88,7 +88,7 @@ const RecuiterLogin = () => {
                 }
             
             </div>
-            <img src={assets.cross_icon} className='absolute top-5 right-5 cursor-pointer' onClick={e=>setShowRecruiterLogin(false)} alt="" />
+            <img src={assets.cross_icon} className='absolute top-5 right-5 z-20 cursor-pointer' onClick={e=>setShowRecruiterLogin(false)} alt="" />
         </form>
         
     </div>

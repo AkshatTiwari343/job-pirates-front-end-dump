@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className='shadow py-4'>
       <div className='container px-4 mx-auto flex justify-between items-center'>
-        <img onClick = {()=> navigate('/')}src={assets.jobPirates_logo} alt="logo" className='h-20 cursor-pointer'/>
+        <img onClick = {()=> navigate('/')}src={assets.jobPirates_logo} alt="logo" className='h-20 max-sm:h-10 cursor-pointer'/>
         <div className='flex gap-4 max-sm:text-xs items-center'>
           {isSignedIn ? (
             <div className='flex items-center gap-3'>
